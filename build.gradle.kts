@@ -50,6 +50,8 @@ kotlin {
 
 // https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellijPlatform {
+    buildSearchableOptions = false
+
     pluginConfiguration {
         name = properties("pluginName")
     }

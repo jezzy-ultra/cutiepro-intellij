@@ -26,7 +26,7 @@ dependencies {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(17)
 }
 
 // https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html

@@ -7,7 +7,7 @@ fun environment(key: String) = providers.environmentVariable(key)
 plugins {
     id("java")
     alias(libs.plugins.kotlin)
-    alias(libs.plugins.gradleIntelliJPlugin)
+    alias(libs.plugins.intellijPlatform)
     alias(libs.plugins.changelog)
     alias(libs.plugins.qodana)
     alias(libs.plugins.kover)
@@ -18,11 +18,28 @@ version = properties("pluginVersion").get()
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
 // https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
     implementation(libs.annotations)
+    intellijPlatform {
+        intellijIdeaCommunity(properties("platformVersion"))
+
+//        plugins(properties("platformPlugins").map {
+//            it.split(',').map(String::trim).filter(String::isNotEmpty)
+//        })
+//        bundledPlugins(properties("platformBundledPlugins").map {
+//            it.split(',').map(String::trim).filter(String::isNotEmpty)
+//        })
+
+        pluginVerifier()
+        zipSigner()
+        instrumentationTools()
+    }
 }
 
 kotlin {
@@ -30,13 +47,27 @@ kotlin {
 }
 
 // https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
-intellij {
-    pluginName = properties("pluginName")
-    version = properties("platformVersion")
-    type = properties("platformType")
+intellijPlatform {
+    pluginConfiguration {
+        name = properties("pluginName")
+    }
 
-    plugins = properties("platformPlugins").map {
-        it.split(',').map(String::trim).filter(String::isNotEmpty)
+    signing {
+        certificateChain = environment("CERTIFICATE_CHAIN")
+        privateKey = environment("PRIVATE_KEY")
+        password = environment("PRIVATE_KEY_PASSWORD")
+    }
+
+    publishing {
+        token = environment("PUBLISH_TOKEN")
+        // The pluginVersion is based on the SemVer (https://semver.org)
+        //  and supports pre-release labels, like 2.1.7-alpha.3
+        // Specify pre-release label to publish the plugin in a custom Release Channel.
+        // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
+        channels = properties("pluginVersion").map {
+            listOf(it.substringAfter('-', "").substringBefore('.')
+                .ifEmpty { "default" })
+        }
     }
 }
 
@@ -67,8 +98,8 @@ tasks {
         sinceBuild = properties("pluginSinceBuild")
         untilBuild = properties("pluginUntilBuild")
 
-        // extract the <!-- Plugin description --> section from README.md
-        // and provide for the plugin's manifest
+        // Extract the <!-- Plugin description --> section from README.md
+        //  and provide for the plugin's manifest
         pluginDescription =
             providers.fileContents(layout.projectDirectory.file(
                 "README.md")).asText.map {
@@ -86,8 +117,8 @@ tasks {
                 }
             }
 
-        val changelog =
-            project.changelog // local variable for configuration cache compatibility
+        // local variable for configuration cache compatibility
+        val changelog = project.changelog
         // get the latest available change notes from the changelog file
         changeNotes = properties("pluginVersion").map { pluginVersion ->
             with(changelog) {
@@ -100,31 +131,15 @@ tasks {
         }
     }
 
-    // Configure UI tests plugin
-    // Read more: https://github.com/JetBrains/intellij-ui-test-robot
-    runIdeForUiTests {
+    // https://github.com/JetBrains/intellij-ui-test-robot
+    testIdeUi {
         systemProperty("robot-server.port", "8082")
         systemProperty("ide.mac.message.dialogs.as.sheets", "false")
         systemProperty("jb.privacy.policy.text", "<!--999.999-->")
         systemProperty("jb.consents.confirmation.enabled", "false")
     }
 
-    signPlugin {
-        certificateChain = environment("CERTIFICATE_CHAIN")
-        privateKey = environment("PRIVATE_KEY")
-        password = environment("PRIVATE_KEY_PASSWORD")
-    }
-
     publishPlugin {
         dependsOn("patchChangelog")
-        token = environment("PUBLISH_TOKEN")
-        // the pluginVersion is based on the SemVer (https://semver.org)
-        // and supports pre-release labels, like 2.1.7-alpha.3
-        // specify pre-release label to publish the plugin in a custom Release Channel.
-        // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
-        channels = properties("pluginVersion").map {
-            listOf(it.substringAfter('-', "").substringBefore('.')
-                .ifEmpty { "default" })
-        }
     }
 }

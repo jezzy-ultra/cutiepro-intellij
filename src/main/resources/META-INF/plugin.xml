@@ -1,8 +1,0 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
-<idea-plugin>
-    <id>dev.jezzy.CutiePro</id>
-    <name>CutiePro</name>
-    <vendor>jezzy-ultra</vendor>
-
-    <depends>com.intellij.modules.platform</depends>
-</idea-plugin>

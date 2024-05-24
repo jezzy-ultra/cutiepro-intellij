@@ -40,7 +40,6 @@ dependencies {
 
         pluginVerifier()
         zipSigner()
-        instrumentationTools()
     }
 }
 
@@ -51,6 +50,7 @@ kotlin {
 // https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellijPlatform {
     buildSearchableOptions = false
+    instrumentCode = false
 
     pluginConfiguration {
         id = "${properties("pluginGroup")}.${properties("pluginName")}"

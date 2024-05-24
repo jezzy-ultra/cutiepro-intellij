@@ -30,14 +30,6 @@ dependencies {
     implementation(libs.annotations)
     intellijPlatform {
         intellijIdeaCommunity(properties("platformVersion"))
-
-//        plugins(properties("platformPlugins").map {
-//            it.split(',').map(String::trim).filter(String::isNotEmpty)
-//        })
-//        bundledPlugins(properties("platformBundledPlugins").map {
-//            it.split(',').map(String::trim).filter(String::isNotEmpty)
-//        })
-
         pluginVerifier()
         zipSigner()
     }
@@ -103,7 +95,6 @@ intellijPlatform {
 
     verifyPlugin {
         ides {
-            //ide(IntelliJPlatformType.IntellijIdeaCommunity, properties("platformVersion"))
             recommended()
             select {
                 types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)
@@ -123,7 +114,7 @@ intellijPlatform {
     publishing {
         token = environment("PUBLISH_TOKEN")
         // The pluginVersion is based on the SemVer (https://semver.org)
-        //  and supports pre-release labels, like 2.1.7-alpha.3
+        //   and supports pre-release labels, like `2.1.7-alpha.3`.
         // Specify pre-release label to publish the plugin in a custom Release Channel.
         // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
         channels = properties("pluginVersion").map {

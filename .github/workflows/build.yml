@@ -18,7 +18,7 @@ jobs:
     outputs:
       version: ${{ steps.properties.outputs.version }}
       changelog: ${{ steps.properties.outputs.changelog }}
-    #      pluginVerifierHomeDir: ${{ steps.properties.outputs.pluginVerifierHomeDir }}
+      pluginVerifierHomeDir: ${{ steps.properties.outputs.pluginVerifierHomeDir }}
     steps:
 
       - name: Fetch Sources
@@ -47,9 +47,9 @@ jobs:
           CHANGELOG="$(./gradlew getChangelog --unreleased --no-header --console=plain -q)"
 
           echo "version=$VERSION" >> $GITHUB_OUTPUT
-          #          echo "pluginVerifierHomeDir=~/.pluginVerifier" >> $GITHUB_OUTPUT
-               
-               echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          echo "pluginVerifierHomeDir=${{ github.workspace }}/.pluginVerifier" >> $GITHUB_OUTPUT
+          
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
@@ -168,12 +168,11 @@ jobs:
       - name: Setup Plugin Verifier IDEs Cache
         uses: actions/cache@v4
         with:
-          #          path: ${{ needs.build.outputs.pluginVerifierHomeDir }}/ides
-          path: ${{ github.workspace }}/.cache/pluginVerifier/ides
+          path: ${{ needs.build.outputs.pluginVerifierHomeDir }}/ides
           key: plugin-verifier-${{ hashFiles('build/printProductsReleases.txt') }}
 
-      #      - name: Run Plugin Verification tasks
-      #        run: ./gradlew verifyPlugin -Dplugin.verifier.home.dir=${{ needs.build.outputs.pluginVerifierHomeDir }}
+      - name: Run Plugin Verification tasks
+        run: ./gradlew verifyPlugin -Dplugin.verifier.home.dir=${{ needs.build.outputs.pluginVerifierHomeDir }}
 
       - name: Collect Plugin Verifier Result
         if: ${{ always() }}

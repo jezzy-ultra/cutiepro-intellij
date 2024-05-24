@@ -25,7 +25,7 @@ repositories {
     }
 }
 
-// https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
+// see: https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog
 dependencies {
     implementation(libs.annotations)
     intellijPlatform {
@@ -39,7 +39,7 @@ kotlin {
     jvmToolchain(17)
 }
 
-// https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
+// see: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
 intellijPlatform {
     buildSearchableOptions = false
     instrumentCode = false
@@ -48,8 +48,6 @@ intellijPlatform {
         id = "${properties("pluginGroup")}.${properties("pluginName")}"
         name = properties("pluginName")
         version = properties("pluginVersion")
-        // Extract the <!-- Plugin description --> section from README.md
-        //   and provide for the plugin's manifest.
         description =
             providers.fileContents(
                 layout.projectDirectory.file(
@@ -72,7 +70,6 @@ intellijPlatform {
             }
         // local variable for configuration cache compatibility
         val changelog = project.changelog
-        // Get the latest available change notes from the changelog file.
         changeNotes = properties("pluginVersion").map { pluginVersion ->
             with(changelog) {
                 renderItem(
@@ -116,7 +113,7 @@ intellijPlatform {
         // The pluginVersion is based on the SemVer (https://semver.org)
         //   and supports pre-release labels, like `2.1.7-alpha.3`.
         // Specify pre-release label to publish the plugin in a custom Release Channel.
-        // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
+        // see: https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
         channels = properties("pluginVersion").map {
             listOf(it.substringAfter('-', "").substringBefore('.')
                 .ifEmpty { "default" })
@@ -124,13 +121,13 @@ intellijPlatform {
     }
 }
 
-// https://github.com/JetBrains/gradle-changelog-plugin
+// see: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
     groups.empty()
     repositoryUrl = properties("pluginRepositoryUrl")
 }
 
-// https://github.com/Kotlin/kotlinx-kover#configuration
+// see: https://github.com/Kotlin/kotlinx-kover#configuration
 kover {
     reports {
         total {
@@ -146,7 +143,7 @@ tasks {
         gradleVersion = properties("gradleVersion").get()
     }
 
-    // https://github.com/JetBrains/intellij-ui-test-robot
+    // see: https://github.com/JetBrains/intellij-ui-test-robot
     testIdeUi {
         systemProperty("robot-server.port", "8082")
         systemProperty("ide.mac.message.dialogs.as.sheets", "false")

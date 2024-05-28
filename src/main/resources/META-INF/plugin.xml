@@ -1,4 +1,7 @@
 <!-- Plugin configuration file.
 See: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="dev.jezzy.CutiePro" path="CutiePro.xml" />
+  </extensions>
 </idea-plugin>

@@ -92,6 +92,7 @@ intellijPlatform {
 
     verifyPlugin {
         ides {
+            ide(properties("platformType"))
             recommended()
             select {
                 types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)

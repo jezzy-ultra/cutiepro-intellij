@@ -1,7 +1,5 @@
 import org.jetbrains.changelog.Changelog
 import org.jetbrains.changelog.markdownToHTML
-import org.jetbrains.intellij.platform.gradle.IntelliJPlatformType
-import org.jetbrains.intellij.platform.gradle.models.ProductRelease
 
 fun properties(key: String) = providers.gradleProperty(key)
 fun environment(key: String) = providers.environmentVariable(key)
@@ -92,14 +90,7 @@ intellijPlatform {
 
     verifyPlugin {
         ides {
-            ide(properties("platformType"))
             recommended()
-            select {
-                types = listOf(IntelliJPlatformType.IntellijIdeaCommunity)
-                channels = listOf(ProductRelease.Channel.RELEASE)
-                sinceBuild = properties("pluginSinceBuild")
-                untilBuild = properties("pluginUntilBuild")
-            }
         }
     }
 

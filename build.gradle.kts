@@ -29,7 +29,7 @@ repositories {
 dependencies {
     implementation(libs.annotations)
     intellijPlatform {
-        intellijIdeaCommunity(properties("platformVersion"))
+        create(properties("platformType"), properties("platformVersion"))
         pluginVerifier()
         zipSigner()
     }

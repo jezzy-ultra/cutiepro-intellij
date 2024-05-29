@@ -45,7 +45,7 @@ intellijPlatform {
     instrumentCode = false
 
     pluginConfiguration {
-        id = "${properties("pluginGroup")}.${properties("pluginName")}"
+        id = "${properties("pluginGroup").get()}.${properties("pluginName").get()}"
         name = properties("pluginName")
         version = properties("pluginVersion")
         description =

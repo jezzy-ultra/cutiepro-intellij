@@ -2,7 +2,7 @@
 #   PUBLISH_TOKEN, PRIVATE_KEY, PRIVATE_KEY_PASSWORD, CERTIFICATE_CHAIN.
 # See: https://plugins.jetbrains.com/docs/intellij/plugin-signing.html
 
-name: Release
+name: release
 on:
   release:
     types: [prereleased, released]
@@ -10,30 +10,30 @@ on:
 jobs:
 
   release:
-    name: Publish Plugin
+    name: publish
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
     steps:
 
-      - name: Fetch Sources
+      - name: fetch sources
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.release.tag_name }}
 
-      - name: Setup Java
+      - name: set up Java
         uses: actions/setup-java@v4
         with:
           distribution: zulu
           java-version: 17
 
-      - name: Setup Gradle
+      - name: set up Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-home-cache-cleanup: true
 
-      - name: Export Properties
+      - name: export properties
         id: properties
         shell: bash
         run: |
@@ -46,14 +46,14 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Patch Changelog
+      - name: patch changelog
         if: ${{ steps.properties.outputs.changelog != '' }}
         env:
           CHANGELOG: ${{ steps.properties.outputs.changelog }}
         run: |
           ./gradlew patchChangelog --release-note="$CHANGELOG"
 
-      - name: Publish Plugin
+      - name: publish plugin
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           CERTIFICATE_CHAIN: ${{ secrets.CERTIFICATE_CHAIN }}
@@ -61,12 +61,12 @@ jobs:
           PRIVATE_KEY_PASSWORD: ${{ secrets.PRIVATE_KEY_PASSWORD }}
         run: ./gradlew publishPlugin
 
-      - name: Upload Release Asset
+      - name: upload release asset
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh release upload ${{ github.event.release.tag_name }} ./build/distributions/*
 
-      - name: Create Pull Request
+      - name: create pull request
         if: ${{ steps.properties.outputs.changelog != '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

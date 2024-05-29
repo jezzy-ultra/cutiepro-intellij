@@ -143,14 +143,6 @@ tasks {
         gradleVersion = properties("gradleVersion").get()
     }
 
-    // see: https://github.com/JetBrains/intellij-ui-test-robot
-    testIdeUi {
-        systemProperty("robot-server.port", "8082")
-        systemProperty("ide.mac.message.dialogs.as.sheets", "false")
-        systemProperty("jb.privacy.policy.text", "<!--999.999-->")
-        systemProperty("jb.consents.confirmation.enabled", "false")
-    }
-
     publishPlugin {
         dependsOn("patchChangelog")
     }

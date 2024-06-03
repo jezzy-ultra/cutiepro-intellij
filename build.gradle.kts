@@ -44,6 +44,7 @@ intellijPlatform {
 
     pluginConfiguration {
         id = "${properties("pluginGroup").get()}.${properties("pluginName").get()}"
+
         name = properties("pluginName")
         version = properties("pluginVersion")
         description =

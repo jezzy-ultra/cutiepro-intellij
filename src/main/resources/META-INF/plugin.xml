@@ -3,6 +3,6 @@ See: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html 
 <idea-plugin>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <bundledColorScheme id="dev.jezzy.CutiePro" path="CutiePro.xml" />
+      <bundledColorScheme id="dev.jezzy.cutiepro" path="cutiepro.xml" />
   </extensions>
 </idea-plugin>

@@ -98,7 +98,7 @@ jobs:
         with:
           gradle-home-cache-cleanup: true
 
-      - name: Set up plugin verifier IDEs cache
+      - name: Set up Plugin Verifier IDEs cache
         uses: actions/cache@v4
         with:
           path: ${{ needs.build.outputs.pluginVerifierHomeDir }}/ides

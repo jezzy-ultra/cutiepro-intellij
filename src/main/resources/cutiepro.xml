@@ -30,7 +30,7 @@
     <option name="BLOCK_TERMINAL_DEFAULT_BACKGROUND" value="181818" />
     <option name="BLOCK_TERMINAL_DEFAULT_FOREGROUND" value="d5d0c9" />
     <option name="CARET_COLOR" value="efc4cd" />
-    <option name="CARET_ROW_COLOR" value="1c1d1e" />
+    <option name="CARET_ROW_COLOR" value="202223" />
     <option name="CONSOLE_BACKGROUND_KEY" value="181818" />
     <option name="DELETED_LINES_COLOR" value="f596ac" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
@@ -64,11 +64,11 @@
     <option name="FILESTATUS_modifiedOutside" value="c69dee" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="0" />
     <option name="GUTTER_BACKGROUND" value="212121" />
-    <option name="HINT_BORDER" value="3f3c3b" />
+    <option name="HINT_BORDER" value="2e2a27" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="91cb70" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="f596ac" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="ec986b" />
-    <option name="INDENT_GUIDE" value="3f3c3b" />
+    <option name="INDENT_GUIDE" value="2e2a27" />
     <option name="INFORMATION_HINT" value="" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3d3b39" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="54504e" />
@@ -98,14 +98,14 @@
     <option name="ScrollBar.thumbColor" value="e5a1a380" />
     <option name="TAB_UNDERLINE" value="e5a1a3" />
     <option name="TAB_UNDERLINE_INACTIVE" value="88847f" />
-    <option name="TEARLINE_COLOR" value="3f3c3b" />
+    <option name="TEARLINE_COLOR" value="2e2a27" />
     <option name="TOOLTIP" value="" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="e82552" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3d373a" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="c01faf" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="3d373a" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ce3535" />
-    <option name="VISUAL_INDENT_GUIDE" value="3f3c3b" />
+    <option name="VISUAL_INDENT_GUIDE" value="2e2a27" />
     <option name="WARNING_HINT" value="" />
     <option name="WHITESPACES" value="88847f" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="707070" />
@@ -159,7 +159,7 @@
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="3f3c3b" />
+        <option name="FOREGROUND" value="2e2a27" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -567,7 +567,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="909090" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -724,39 +724,35 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="d5d0c9" />
+        <option name="BACKGROUND" value="2e2a27" />
       </value>
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="dddddd" />
-        <option name="BACKGROUND" value="595959" />
+        <option name="FOREGROUND" value="d5c3c3" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="9b9090" />
+        <option name="FOREGROUND" value="d5c3c3" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="dddddd" />
-        <option name="BACKGROUND" value="595959" />
+        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="e0bcc1" />
-        <option name="BACKGROUND" value="595959" />
-        <option name="EFFECT_COLOR" value="e0bcc1" />
+        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="EFFECT_COLOR" value="d5c3c3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="e0bcc1" />
-        <option name="BACKGROUND" value="595959" />
+        <option name="FOREGROUND" value="d5c3c3" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">

@@ -10,7 +10,7 @@ on:
 jobs:
 
   release:
-    name: publish
+    name: Publish Plugin
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -53,7 +53,7 @@ jobs:
         run: |
           ./gradlew patchChangelog --release-note="$CHANGELOG"
 
-      - name: publish plugin
+      - name: publish plugin to Marketplace
         env:
           PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           CERTIFICATE_CHAIN: ${{ secrets.CERTIFICATE_CHAIN }}

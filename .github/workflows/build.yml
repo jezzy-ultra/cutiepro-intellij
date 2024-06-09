@@ -21,24 +21,24 @@ jobs:
       pluginVerifierHomeDir: ${{ steps.properties.outputs.pluginVerifierHomeDir }}
     steps:
 
-      - name: fetch sources
+      - name: Fetch sources
         uses: actions/checkout@v4
 
-      - name: validate Gradle Wrapper
+      - name: Validate Gradle Wrapper
         uses: gradle/actions/wrapper-validation@v3
 
-      - name: set up Java
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: zulu
           java-version: 17
 
-      - name: set up Gradle
+      - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-home-cache-cleanup: true
 
-      - name: export Properties
+      - name: Export Properties
         id: properties
         shell: bash
         run: |
@@ -53,7 +53,7 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: build plugin
+      - name: Build plugin
         run: ./gradlew buildPlugin
 
       - name: prepare plugin artifact
@@ -66,7 +66,7 @@ jobs:
 
           echo "filename=${FILENAME:0:-4}" >> $GITHUB_OUTPUT
 
-      - name: upload artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.filename }}
@@ -78,36 +78,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: maximize build space
+      - name: Maximize build space
         uses: jlumbroso/free-disk-space@main
         with:
           tool-cache: false
           large-packages: false
 
-      - name: fetch sources
+      - name: Fetch sources
         uses: actions/checkout@v4
 
-      - name: set up Java
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: zulu
           java-version: 17
 
-      - name: set up Gradle
+      - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
           gradle-home-cache-cleanup: true
 
-      - name: set up plugin verifier IDEs cache
+      - name: Set up plugin verifier IDEs cache
         uses: actions/cache@v4
         with:
           path: ${{ needs.build.outputs.pluginVerifierHomeDir }}/ides
           key: plugin-verifier-${{ hashFiles('build/printProductsReleases.txt') }}
 
-      - name: verify plugin
+      - name: Verify plugin
         run: ./gradlew verifyPlugin -Dplugin.verifier.home.dir=${{ needs.build.outputs.pluginVerifierHomeDir }}
 
-      - name: collect Plugin Verifier result
+      - name: Collect Plugin Verifier result
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
@@ -123,10 +123,10 @@ jobs:
       contents: write
     steps:
 
-      - name: fetch sources
+      - name: Fetch sources
         uses: actions/checkout@v4
 
-      - name: remove old release drafts
+      - name: Remove old release drafts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -134,7 +134,7 @@ jobs:
             --jq '.[] | select(.draft == true) | .id' \
             | xargs -I '{}' gh api -X DELETE repos/{owner}/{repo}/releases/{}
 
-      - name: create release draft
+      - name: Create release draft
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

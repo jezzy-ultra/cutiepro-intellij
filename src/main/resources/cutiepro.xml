@@ -37,7 +37,6 @@
     <option name="DOCUMENTATION_COLOR" value="" />
     <option name="DOC_COMMENT_GUIDE" value="d286b7" />
     <option name="DOC_COMMENT_LINK" value="d286b7" />
-    <option name="ERROR_HINT" value="" />
     <option name="FILESTATUS_ADDED" value="a4c474" />
     <option name="FILESTATUS_COPIED" value="a4c474" />
     <option name="FILESTATUS_DELETED" value="707070" />
@@ -69,7 +68,6 @@
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="f596ac" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="ec986b" />
     <option name="INDENT_GUIDE" value="2e2a27" />
-    <option name="INFORMATION_HINT" value="" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="3d3b39" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="54504e" />
     <option name="INLINE_REFACTORING_SETTINGS_HOVERED" value="54504e" />
@@ -81,9 +79,6 @@
     <option name="MODIFIED_LINES_COLOR" value="ec986b" />
     <option name="MODIFIED_TAB_ICON" value="e5a1a3" />
     <option name="NOTIFICATION_BACKGROUND" value="" />
-    <option name="PROMOTION_PANE" value="" />
-    <option name="QUESTION_HINT" value="" />
-    <option name="READONLY_BACKGROUND" value="" />
     <option name="RECENT_LOCATIONS_SELECTION" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="e5a1a3" />
     <option name="SELECTED_INDENT_GUIDE" value="88847f" />
@@ -99,14 +94,12 @@
     <option name="TAB_UNDERLINE" value="e5a1a3" />
     <option name="TAB_UNDERLINE_INACTIVE" value="88847f" />
     <option name="TEARLINE_COLOR" value="2e2a27" />
-    <option name="TOOLTIP" value="" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="e82552" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3d373a" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="c01faf" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="3d373a" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ce3535" />
     <option name="VISUAL_INDENT_GUIDE" value="2e2a27" />
-    <option name="WARNING_HINT" value="" />
     <option name="WHITESPACES" value="88847f" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="707070" />
   </colors>

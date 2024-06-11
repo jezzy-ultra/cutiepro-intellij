@@ -39,12 +39,11 @@ kotlin {
 
 // see: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
 intellijPlatform {
-    buildSearchableOptions = false
     instrumentCode = false
+    buildSearchableOptions = false
 
     pluginConfiguration {
         id = "${properties("pluginGroup").get()}.${properties("pluginName").get()}"
-
         name = properties("pluginName")
         version = properties("pluginVersion")
         description =

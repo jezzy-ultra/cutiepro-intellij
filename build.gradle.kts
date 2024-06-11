@@ -79,6 +79,7 @@ intellijPlatform {
         }
         ideaVersion {
             sinceBuild = properties("pluginSinceBuild")
+            untilBuild = provider { null }
         }
         vendor {
             name = properties("vendorName")

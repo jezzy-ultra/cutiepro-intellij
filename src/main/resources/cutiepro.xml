@@ -187,8 +187,8 @@
     </option>
     <option name="BLOCK_TERMINAL_CYAN_BRIGHT">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
-        <option name="BACKGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
+        <option name="BACKGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_GREEN">
@@ -305,7 +305,7 @@
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
@@ -400,6 +400,11 @@
       </value>
     </option>
     <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CSS.OPERATORS">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
     <option name="CSS.URL">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -476,12 +481,12 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -496,7 +501,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -530,7 +535,7 @@
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -596,7 +601,7 @@
     </option>
     <option name="DEFAULT_LABEL">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -632,7 +637,7 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -651,7 +656,7 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -778,6 +783,31 @@
         <option name="FOREGROUND" value="c69dee" />
       </value>
     </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="GO_COMMENT_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="d7c3ba" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_LOCAL_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="GO_METHOD_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE">
+      <value />
+    </option>
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
     <option name="GRAMMAR_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="bec975" />
@@ -788,7 +818,7 @@
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CUSTOM_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="c3a6cb" />
+        <option name="FOREGROUND" value="e5a1a3" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
@@ -948,7 +978,7 @@
     </option>
     <option name="KOTLIN_TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
@@ -1113,7 +1143,7 @@
     <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1227,7 +1257,7 @@
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="TYPO">
@@ -1312,7 +1342,7 @@
     </option>
     <option name="org.rust.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="9dccbb" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="org.rust.VARIABLE">

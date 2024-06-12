@@ -235,8 +235,8 @@
     </option>
     <option name="BLOCK_TERMINAL_WHITE">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
-        <option name="BACKGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="BACKGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_YELLOW">
@@ -325,7 +325,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -476,12 +476,12 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -496,7 +496,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -519,18 +519,18 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -632,7 +632,7 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -651,7 +651,7 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="d7baba" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -673,7 +673,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="f3b061" />
+        <option name="FOREGROUND" value="e8d6a7" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -740,7 +740,7 @@
     </option>
     <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="D7BABA" />
+        <option name="BACKGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
@@ -792,11 +792,7 @@
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="e8d6a7" />
-      </value>
-    </option>
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
@@ -839,12 +835,12 @@
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -854,14 +850,14 @@
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
-        <option name="EFFECT_COLOR" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="EFFECT_COLOR" value="d7c3ba" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="D7BABA" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">

@@ -2,7 +2,7 @@
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="ide">idea</property>
-    <property name="ideVersion">2024.1.2.0.0</property>
+    <property name="ideVersion">2024.1.3.0.0</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
@@ -211,8 +211,8 @@
     </option>
     <option name="BLOCK_TERMINAL_MAGENTA_BRIGHT">
       <value>
-        <option name="FOREGROUND" value="b294bb" />
-        <option name="BACKGROUND" value="b294bb" />
+        <option name="FOREGROUND" value="c3a6cb" />
+        <option name="BACKGROUND" value="c3a6cb" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_RED">
@@ -235,8 +235,8 @@
     </option>
     <option name="BLOCK_TERMINAL_WHITE">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
-        <option name="BACKGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
+        <option name="BACKGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_YELLOW">
@@ -247,8 +247,8 @@
     </option>
     <option name="BLOCK_TERMINAL_YELLOW_BRIGHT">
       <value>
-        <option name="FOREGROUND" value="f1bb79" />
-        <option name="BACKGROUND" value="f1bb79" />
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="BACKGROUND" value="f3b061" />
       </value>
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
@@ -325,7 +325,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -340,7 +340,7 @@
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="b294bb" />
+        <option name="FOREGROUND" value="c3a6cb" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
@@ -355,7 +355,7 @@
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
       <value>
-        <option name="EFFECT_COLOR" value="672a49" />
+        <option name="EFFECT_COLOR" value="c5647b" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -386,7 +386,7 @@
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="f1bb79" />
+        <option name="FOREGROUND" value="f3b061" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
@@ -396,7 +396,7 @@
     </option>
     <option name="CSS.COLOR">
       <value>
-        <option name="FOREGROUND" value="c69dee" />
+        <option name="FOREGROUND" value="c3a6cb" />
       </value>
     </option>
     <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
@@ -476,12 +476,12 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
@@ -496,7 +496,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -519,23 +519,23 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="5fb7d9" />
+        <option name="FOREGROUND" value="80c5de" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -617,7 +617,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="5fb7d9" />
+        <option name="FOREGROUND" value="80c5de" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -632,7 +632,7 @@
     </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
@@ -651,7 +651,7 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="d7baba" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -673,7 +673,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="e8d6a7" />
+        <option name="FOREGROUND" value="f3b061" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -684,7 +684,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="5fb7d9" />
+        <option name="FOREGROUND" value="80c5de" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -740,7 +740,7 @@
     </option>
     <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="d5c3c3" />
+        <option name="BACKGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
@@ -788,11 +788,15 @@
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CUSTOM_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff5993" />
+        <option name="FOREGROUND" value="c3a6cb" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
-    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="e8d6a7" />
+      </value>
+    </option>
     <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
@@ -835,12 +839,12 @@
     </option>
     <option name="INLAY_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="INLAY_TEXT_WITHOUT_BACKGROUND">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -850,14 +854,14 @@
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
-        <option name="EFFECT_COLOR" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
+        <option name="EFFECT_COLOR" value="D7BABA" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
-        <option name="FOREGROUND" value="d5c3c3" />
+        <option name="FOREGROUND" value="D7BABA" />
       </value>
     </option>
     <option name="INLINE_STACK_FRAMES">
@@ -887,7 +891,7 @@
     </option>
     <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="83d5dc" />
+        <option name="FOREGROUND" value="c3a6cb" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -904,8 +908,13 @@
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
-        <option name="FOREGROUND" value="d5bbbb" />
+        <option name="FOREGROUND" value="e8d6a7" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value>
+        <option name="FOREGROUND" value="37cb8a" />
       </value>
     </option>
     <option name="KOTLIN_MUTABLE_VARIABLE">
@@ -916,12 +925,13 @@
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="8eecba" />
+        <option name="FOREGROUND" value="f3b061" />
       </value>
     </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_QUEST">
       <value>
-        <option name="FOREGROUND" value="f8a3bb" />
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="KOTLIN_SAFE_ACCESS">
@@ -930,19 +940,19 @@
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_RECEIVER">
-      <value>
-        <option name="BACKGROUND" value="5b2d39" />
-      </value>
+      <value />
     </option>
     <option name="KOTLIN_SMART_CAST_VALUE">
-      <value>
-        <option name="BACKGROUND" value="5b2d39" />
-      </value>
+      <value />
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="BACKGROUND" value="5b2d39" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="KOTLIN_TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="9dccbb" />
       </value>
     </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
@@ -1105,8 +1115,17 @@
     <option name="PROPERTIES.KEY" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
     <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="PY.ANNOTATION">
+      <value>
+        <option name="FOREGROUND" value="9dccbb" />
+      </value>
+    </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
-    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.SELF_PARAMETER">
@@ -1194,7 +1213,7 @@
     </option>
     <option name="TEXT_STYLE_SUGGESTION">
       <value>
-        <option name="EFFECT_COLOR" value="5fb7d9" />
+        <option name="EFFECT_COLOR" value="80c5de" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1212,7 +1231,7 @@
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff6737" />
+        <option name="FOREGROUND" value="9dccbb" />
       </value>
     </option>
     <option name="TYPO">

@@ -38,9 +38,33 @@
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="e5a1a3" />
     <option name="CARET_COLOR" value="efc4cd" />
-    <option name="CARET_ROW_COLOR" value="202526" />
+    <option name="CARET_ROW_COLOR" value="242628" />
     <option name="CONSOLE_BACKGROUND_KEY" value="181818" />
     <option name="DELETED_LINES_COLOR" value="f56e7f" />
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="e8d6a7" />
+    <option name="DIAGRAM_BAD_EDGE" value="f56e7f" />
+    <option name="DIAGRAM_BEND" value="d5d0c9" />
+    <option name="DIAGRAM_BEND_SELECTION" value="bec975" />
+    <option name="DIAGRAM_COARSE_GRID" value="2e2a27" />
+    <option name="DIAGRAM_DEFAULT_EDGE" value="d5d0c9" />
+    <option name="DIAGRAM_EDGE_SELECTION" value="f3b061" />
+    <option name="DIAGRAM_FINE_GRID" value="2e2a27" />
+    <option name="DIAGRAM_GENERALIZATION_EDGE" value="80c5de" />
+    <option name="DIAGRAM_HIGHLIGHTED_NODE_BORDER" value="d286b7" />
+    <option name="DIAGRAM_HOT_SPOTS" value="d5d0c9" />
+    <option name="DIAGRAM_INNER_EDGE" value="e5a1a3" />
+    <option name="DIAGRAM_NODE_BACKGROUND" value="181818" />
+    <option name="DIAGRAM_NODE_BORDER" value="88847f" />
+    <option name="DIAGRAM_NODE_HEADER" value="2e2a27" />
+    <option name="DIAGRAM_NODE_SLOPPY_BACKGROUND" value="c3a6cb" />
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="242628" />
+    <option name="DIAGRAM_NOTE_BORDER" value="88847f" />
+    <option name="DIAGRAM_NOTE_SLOPPY_BACKGROUND" value="242628" />
+    <option name="DIAGRAM_PORT" value="d5d0c9" />
+    <option name="DIAGRAM_REALIZATION_EDGE" value="bec975" />
+    <option name="DIAGRAM_SELECTED_NODE_BORDER" value="d7c3ba" />
+    <option name="DIAGRAM_SELECTION_BOX_BORDER" value="d5d0c9" />
+    <option name="DIAGRAM_SNAPPING_LINES" value="d5d0c9" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="2b2d30" />
     <option name="DIFF_SEPARATOR_WAVE" value="e5a1a3" />
     <option name="DOCUMENTATION_COLOR" value="" />
@@ -82,6 +106,9 @@
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="bec975" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="f56e7f" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="5fb7d9" />
+    <option name="IMAGES_BACKGROUND" value="181818" />
+    <option name="IMAGES_GRID_LINE_COLOR" value="d5d0c9" />
+    <option name="IMAGES_WHITE_CELL_COLOR" value="88847f" />
     <option name="INDENT_GUIDE" value="2e2a27" />
     <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="88847f" />
     <option name="INLINE_REFACTORING_SETTINGS_FOCUSED" value="88847f" />

@@ -307,7 +307,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="f56e7f" />
+        <option name="EFFECT_COLOR" value="f3b061" />
       </value>
     </option>
     <option name="CODE_LENS_BORDER_COLOR">
@@ -1434,6 +1434,11 @@
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
     <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="org.rust.CFG_DISABLED_CODE">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+      </value>
+    </option>
     <option name="org.rust.LIFETIME">
       <value>
         <option name="FOREGROUND" value="37cb8a" />
@@ -1442,7 +1447,7 @@
     </option>
     <option name="org.rust.MACRO">
       <value>
-        <option name="FOREGROUND" value="42d9c5" />
+        <option name="FOREGROUND" value="9ed7a8" />
       </value>
     </option>
     <option name="org.rust.MUT_STATIC">
@@ -1461,7 +1466,12 @@
     </option>
     <option name="org.rust.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="9ed7a8" />
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="org.rust.UNSAFE_CODE">
+      <value>
+        <option name="EFFECT_COLOR" value="f56e7f" />
       </value>
     </option>
     <option name="org.rust.VARIABLE">

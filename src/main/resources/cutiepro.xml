@@ -928,6 +928,21 @@
         <option name="EFFECT_COLOR" value="c3a6cb" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+      </value>
+    </option>
+    <option name="JADE_FILTER_NAME">
+      <value>
+        <option name="FOREGROUND" value="37cb8a" />
+      </value>
+    </option>
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
@@ -1332,6 +1347,139 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
+    <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_TOKEN_SUBSTITUTION">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+      </value>
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_ADDITIONAL_INFORMATION">
+      <value />
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_INTERNAL_PRIVATE">
+      <value>
+        <option name="FOREGROUND" value="88847f" />
+      </value>
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_METADATA_EMPHASIZED">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_METADATA_TOKEN">
+      <value>
+        <option name="FOREGROUND" value="bec975" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_METADATA_USAGE">
+      <value>
+        <option name="EFFECT_COLOR" value="d5d0c9" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASSEMBLY_EXPLORER_TYPE_ELEMENT">
+      <value>
+        <option name="FOREGROUND" value="d286b7" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DOXYGEN_COMMAND_VALUE">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.FORMAT_STRING_ITEM">
+      <value>
+        <option name="FOREGROUND" value="37cb8a" />
+      </value>
+    </option>
+    <option name="ReSharper.FORMAT_STRING_ITEM_2">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="ReSharper.HINT">
+      <value>
+        <option name="EFFECT_COLOR" value="37cb8a" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="ReSharper.IL_INSTRUCTION">
+      <value>
+        <option name="FOREGROUND" value="e8d6a7" />
+      </value>
+    </option>
+    <option name="ReSharper.IL_VIEWER_SYNCHRONIZATION">
+      <value>
+        <option name="EFFECT_COLOR" value="c3a6cb" />
+      </value>
+    </option>
+    <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
+      <value>
+        <option name="EFFECT_COLOR" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="ReSharper.OUTLINED_ENTITY">
+      <value>
+        <option name="EFFECT_COLOR" value="d7c3ba" />
+      </value>
+    </option>
+    <option name="ReSharper.ReSharper.ShaderLab_DISABLED_SHADER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="ReSharper.ReSharper.ShaderLab_ENABLED_SHADER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="f3b061" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ReSharper.ShaderLab_IMPLICITLY_ENABLED_SHADER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ReSharper.ShaderLab_SUPPRESSED_SHADER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="EFFECT_COLOR" value="f3b061" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="ReSharper.STRING_ESCAPE_CHARACTER_2">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
+    <option name="ReSharper.ST_SUSPICIOUS_TEXT">
+      <value>
+        <option name="EFFECT_COLOR" value="c3a6cb" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_MIXIN">
       <value>
@@ -1349,6 +1497,15 @@
     <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
     <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
+    <option name="SUGGESTION">
+      <value>
+        <option name="EFFECT_COLOR" value="37cb8a" />
+        <option name="ERROR_STRIPE_COLOR" value="37cb8a" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Static method access" baseAttributes="" />
     <option name="TAB_SELECTED">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -1412,6 +1569,11 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
@@ -1421,6 +1583,41 @@
       <value>
         <option name="EFFECT_COLOR" value="bec975" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="UNITY_EXPENSIVE_CAMERA_MAIN_USAGE">
+      <value>
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="UNITY_EXPENSIVE_METHOD_INVOCATION">
+      <value>
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="UNITY_EXPENSIVE_NULL_COMPARISON">
+      <value>
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="UNITY_INEFFICIENT_MULTIDIMENSIONAL_ARRAY_USAGE">
+      <value>
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="UNITY_INEFFICIENT_MULTIPLICATION_ORDER">
+      <value>
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="UNITY_PERFORMANCE_CRITICAL_LINE_MARKER">
+      <value>
+        <option name="BACKGROUND" value="f58669" />
       </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -1483,11 +1680,7 @@
       </value>
     </option>
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="BACKGROUND" value="2e2a27" />
-      </value>
-    </option>
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />

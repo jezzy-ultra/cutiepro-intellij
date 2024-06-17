@@ -152,6 +152,35 @@
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ASCIIDOC.HEADING">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONO">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOBOLD">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOBOLDITALIC">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="ASCIIDOC_MONOITALIC">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="f56e7f" />
@@ -432,6 +461,64 @@
         <option name="FOREGROUND" value="d286b7" />
       </value>
     </option>
+    <option name="CSV_DEFAULT_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="e8d6a7" />
+      </value>
+    </option>
+    <option name="CSV_DEFAULT_STRING">
+      <value />
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_0">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_1">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_2">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_3">
+      <value>
+        <option name="FOREGROUND" value="bec975" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_4">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_5">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_6">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_7">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_8">
+      <value>
+        <option name="FOREGROUND" value="d286b7" />
+      </value>
+    </option>
+    <option name="CSV_PLUGIN_COLUMN_COLORING_ATTRIBUTE_9">
+      <value>
+        <option name="FOREGROUND" value="37cb8a" />
+      </value>
+    </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="d286b7" />
@@ -470,6 +557,16 @@
       <value>
         <option name="FOREGROUND" value="e8d6a7" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DART_TYPE_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="DART_TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
@@ -764,6 +861,21 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="ERL_MACRO">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="ERL_RECORDS">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="ERL_VARIABLES">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="f56e7f" />
@@ -799,6 +911,12 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="GD_ANNOTATION" baseAttributes="DEFAULT_DOC_MARKUP" />
+    <option name="GD_COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="GD_FLOW_KEYWORDS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="GD_NODE_PATH" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
+    <option name="GD_NUMBER" baseAttributes="DEFAULT_NUMBER" />
+    <option name="GD_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="f3b061" />
@@ -841,6 +959,11 @@
       </value>
     </option>
     <option name="GO_PACKAGE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="GO_TEMPLATE_BACKGROUND">
+      <value>
+        <option name="BACKGROUND" value="0" />
+      </value>
+    </option>
     <option name="GO_TYPE_REFERENCE">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
@@ -928,6 +1051,19 @@
         <option name="EFFECT_COLOR" value="c3a6cb" />
       </value>
     </option>
+    <option name="Implicit conversion">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Interpolated String Injection">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JADE_FILE_PATH">
       <value>
         <option name="FOREGROUND" value="80c5de" />
@@ -952,6 +1088,35 @@
       <value>
         <option name="FOREGROUND" value="ffbecf" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="JULIA_ABSTRACT_TYPE_NAME" baseAttributes="DEFAULT_INTERFACE_NAME" />
+    <option name="JULIA_BUILTIN_NAME">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JULIA_FLOAT_LIT" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="JULIA_KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="JULIA_MACRO_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="JULIA_QUOTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="37cb8a" />
+      </value>
+    </option>
+    <option name="JULIA_TYPE_NAME" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="JULIA_TYPE_PARAMETER_NAME">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="KOTLIN_COLON">
@@ -1055,8 +1220,89 @@
         <option name="EFFECT_COLOR" value="88847f" />
       </value>
     </option>
+    <option name="LOGCAT_FILTER_KEY">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_REGEX_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+      </value>
+    </option>
+    <option name="LOGCAT_FILTER_STRING_KVALUE">
+      <value>
+        <option name="FOREGROUND" value="bec975" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ASSERT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_ERROR">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_INFO">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="bec975" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_VERBOSE">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="d5d0c9" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_LEVEL_WARNING">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="e8d6a7" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ASSERT">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_DEBUG">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_ERROR">
+      <value>
+        <option name="FOREGROUND" value="f56e7f" />
+      </value>
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_INFO">
+      <value>
+        <option name="FOREGROUND" value="bec975" />
+      </value>
+    </option>
     <option name="LOGCAT_V2_MESSAGE_VERBOSE">
       <value />
+    </option>
+    <option name="LOGCAT_V2_MESSAGE_WARNING">
+      <value>
+        <option name="FOREGROUND" value="e8d6a7" />
+      </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
       <value>
@@ -1184,11 +1430,37 @@
         <option name="EFFECT_COLOR" value="e8d6a7" />
       </value>
     </option>
+    <option name="MERMAID_DIAGRAM_NAME" baseAttributes="MERMAID_KEYWORD" />
+    <option name="MERMAID_EDGE" baseAttributes="MERMAID_OPERATOR" />
+    <option name="MERMAID_FRONTMATTER_DELIMITER" baseAttributes="MERMAID_STRING" />
+    <option name="MERMAID_GENERIC">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="MERMAID_IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="MERMAID_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="MERMAID_NOTE">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+      </value>
+    </option>
+    <option name="MERMAID_TITLE">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
     <option name="NG.SIGNAL">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
+    <option name="NIM_NUMBER_SUFFIX">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="NIX_BUILTIN" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="80c5de" />
@@ -1232,6 +1504,112 @@
         <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
+    <option name="PERL_ARRAY">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="PERL_ARRAY_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_EMBED_MARKER" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="PERL_GLOB">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="PERL_GLOB_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_HASH">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="PERL_HASH_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_LABEL">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PERL_PACKAGE_CORE">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PERL_PACKAGE_PRAGMA">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="PERL_SCALAR">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+      </value>
+    </option>
+    <option name="PERL_SCALAR_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="e5a1a3" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_SUB">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="PERL_SUB_BUILTIN">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PERL_VERSION">
+      <value>
+        <option name="FOREGROUND" value="80c5de" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PERL_XSUB">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PEST_ATOMIC" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PEST_COMPOUND_ATOMIC">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+      </value>
+    </option>
+    <option name="PEST_NON_ATOMIC">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PEST_SILENT">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="PEST_UNRESOLVED" baseAttributes="BAD_CHARACTER" />
+    <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
+    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_DOC_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
@@ -1340,6 +1718,11 @@
         <option name="BACKGROUND" value="2e2a27" />
       </value>
     </option>
+    <option name="RMARKDOWN_CHUNK">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+      </value>
+    </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="ffc6c6" />
@@ -1384,6 +1767,8 @@
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
+    <option name="R_FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="R_NAMED_ARGUMENT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
       <value>
         <option name="FOREGROUND" value="80c5de" />
@@ -1542,7 +1927,32 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="Static method access" baseAttributes="" />
+    <option name="SWIFT.PROTOCOL_NAME">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="SWIFT.TYPEALIAS">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
+    <option name="Scala Immutable Collection">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Scala Mutable Collection">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="Scala Type Alias" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="Scala Type parameter" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
+    <option name="Static method access" baseAttributes="STATIC_METHOD_ATTRIBUTES" />
+    <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES" />
     <option name="TAB_SELECTED">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -1611,6 +2021,9 @@
         <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
+    <option name="TSCN_MEMBER_REF" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="TSCN_NODE_RESOURCE" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="TSCN_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
@@ -1724,6 +2137,11 @@
     <option name="XPATH.XPATH_NAME" baseAttributes="TEXT" />
     <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="com.jetbrains.cmake.COMMAND">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
     <option name="com.plan9.IDENTIFIER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="com.plan9.INSTRUCTION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
@@ -1732,6 +2150,11 @@
     <option name="com.jetbrains.cmake.COMMAND">
       <value>
         <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
+    <option name="io.github.intellij.dlanguage.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="org.rust.CFG_DISABLED_CODE">

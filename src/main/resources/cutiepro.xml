@@ -1202,6 +1202,36 @@
     </option>
     <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
     <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
+    <option name="OC.CONDITIONALLY_NOT_COMPILED">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+      </value>
+    </option>
+    <option name="OC.MACRONAME">
+      <value>
+        <option name="FOREGROUND" value="9ed7a8" />
+      </value>
+    </option>
+    <option name="OC.OVERLOADED_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value>
+        <option name="FOREGROUND" value="f3b061" />
+      </value>
+    </option>
+    <option name="OC.STRUCT_LIKE">
+      <value>
+        <option name="FOREGROUND" value="f58669" />
+      </value>
+    </option>
+    <option name="OC.TYPEDEF">
+      <value>
+        <option name="FOREGROUND" value="42d9c5" />
+      </value>
+    </option>
     <option name="PHP_DOC_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="42d9c5" />
@@ -1303,6 +1333,13 @@
     <option name="REGEXP.PARENTHS" baseAttributes="DEFAULT_PARENTHS" />
     <option name="REGEXP.QUOTE_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
+    <option name="REST.FIXED" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.INLINE" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="REST.INTERPRETED">
+      <value>
+        <option name="BACKGROUND" value="2e2a27" />
+      </value>
+    </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="ffc6c6" />
@@ -1692,6 +1729,11 @@
     <option name="com.plan9.LABEL" baseAttributes="DEFAULT_LABEL" />
     <option name="com.plan9.PSEUDO_INSTRUCTION" baseAttributes="com.plan9.INSTRUCTION" />
     <option name="com.plan9.REGISTER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="com.jetbrains.cmake.COMMAND">
+      <value>
+        <option name="FOREGROUND" value="c3a6cb" />
+      </value>
+    </option>
     <option name="org.rust.CFG_DISABLED_CODE">
       <value>
         <option name="BACKGROUND" value="2e2a27" />

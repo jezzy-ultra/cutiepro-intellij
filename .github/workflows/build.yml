@@ -56,7 +56,7 @@ jobs:
       - name: Build plugin
         run: ./gradlew buildPlugin
 
-      - name: prepare plugin artifact
+      - name: Prepare plugin artifact
         id: artifact
         shell: bash
         run: |

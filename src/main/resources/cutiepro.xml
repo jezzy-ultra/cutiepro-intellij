@@ -127,10 +127,10 @@
     <option name="SELECTED_TEARLINE_COLOR" value="88847f" />
     <option name="SELECTION_BACKGROUND" value="383838" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="88847f" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="ffffff4d" />
-    <option name="ScrollBar.Mac.thumbColor" value="ffffff26" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="ffffff4d" />
-    <option name="ScrollBar.Transparent.thumbColor" value="ffffff26" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="e5a1a380" />
+    <option name="ScrollBar.Mac.thumbColor" value="e5a1a380" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="e5a1a380" />
+    <option name="ScrollBar.Transparent.thumbColor" value="e5a1a380" />
     <option name="ScrollBar.hoverThumbColor" value="e5a1a380" />
     <option name="ScrollBar.thumbColor" value="e5a1a380" />
     <option name="TAB_UNDERLINE" value="e5a1a3" />

@@ -388,7 +388,7 @@
       "selectionForeground": "selection_foreground"
     },
     "EditorTabs": {
-      "active.background": "selection_background",
+      "active.background": "background2",
       "active.foreground": "foreground",
       "active.underlineColor": "accent",
       "background": "background",

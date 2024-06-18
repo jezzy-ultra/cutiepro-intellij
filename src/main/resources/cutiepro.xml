@@ -7,7 +7,7 @@
   <option name="LINE_SPACING" value="1.2" />
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrainsMono NF" />
-    <option name="EDITOR_FONT_SIZE" value="13" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
@@ -37,7 +37,7 @@
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="efc4cd" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_BACKGROUND" value="" />
     <option name="BLOCK_TERMINAL_SELECTED_BLOCK_STROKE_COLOR" value="e5a1a3" />
-    <option name="CARET_COLOR" value="efc4cd" />
+    <option name="CARET_COLOR" value="e5a1a3" />
     <option name="CARET_ROW_COLOR" value="242628" />
     <option name="CONSOLE_BACKGROUND_KEY" value="181818" />
     <option name="DELETED_LINES_COLOR" value="f56e7f" />
@@ -863,7 +863,7 @@
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
-        <option name="EFFECT_COLOR" value="f3b061" />
+        <option name="EFFECT_COLOR" value="f58669" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -925,8 +925,8 @@
     <option name="GD_STRING" baseAttributes="DEFAULT_STRING" />
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="f3b061" />
-        <option name="ERROR_STRIPE_COLOR" value="f47710" />
+        <option name="EFFECT_COLOR" value="f58669" />
+        <option name="ERROR_STRIPE_COLOR" value="f58669" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -1644,7 +1644,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="42d9c5" />
+        <option name="FOREGROUND" value="f3b061" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1769,7 +1769,8 @@
     <option name="RUBY_WORDS" baseAttributes="DEFAULT_STRING" />
     <option name="RUNTIME_ERROR">
       <value>
-        <option name="EFFECT_COLOR" value="e8d6a7" />
+        <option name="EFFECT_COLOR" value="f3b061" />
+        <option name="ERROR_STRIPE_COLOR" value="f3b061" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -2118,6 +2119,7 @@
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="f56e7f" />
+        <option name="ERROR_STRIPE_COLOR" value="f56e7f" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

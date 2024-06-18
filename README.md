@@ -1,3 +1,5 @@
+<img alt="logo" src="src/main/resources/META-INF/pluginIcon.svg" align="left" width="75">
+
 # cutiepro theme, for JetBrains IDEs
 ![Build](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/workflows/build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)

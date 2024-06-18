@@ -404,7 +404,7 @@
       "selectedBackground": "selection_background",
       "selectedForeground": "foreground",
       "underlineColor": "accent",
-      "underlinedTabBackground": "selection_background",
+      "underlinedTabBackground": "background",
       "underlinedTabForeground": "selection_foreground"
     },
     "Focus": {

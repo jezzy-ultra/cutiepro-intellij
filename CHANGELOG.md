@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+- Tweak console colors
+- Update a few of the logo colors to be accurate
+- Add an example screenshot
+
 ## [1.0.2] - 2024-06-17
 
 - Initial release! :)

@@ -81,7 +81,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f56e7f" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="37cbba" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="d286b7" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="e8D6a7" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="e8d6a7" />
     <option name="FILESTATUS_MERGED" value="c3a6cb" />
     <option name="FILESTATUS_MODIFIED" value="80c5de" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80c5de" />
@@ -99,8 +99,8 @@
     <option name="HINT_BORDER" value="2e2a27" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffea00" />
-    <option name="HTML_TAG_TREE_LEVEL2" value="08ff00" />
-    <option name="HTML_TAG_TREE_LEVEL3" value="00c4ff" />
+    <option name="HTML_TAG_TREE_LEVEL2" value="8ff00" />
+    <option name="HTML_TAG_TREE_LEVEL3" value="c4ff" />
     <option name="HTML_TAG_TREE_LEVEL4" value="bf00ff" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00d5" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="bec975" />
@@ -207,8 +207,8 @@
     </option>
     <option name="BLOCK_TERMINAL_BLACK_BRIGHT">
       <value>
-        <option name="FOREGROUND" value="88847f" />
-        <option name="BACKGROUND" value="88847f" />
+        <option name="FOREGROUND" value="2e2a27" />
+        <option name="BACKGROUND" value="2e2a27" />
       </value>
     </option>
     <option name="BLOCK_TERMINAL_BLUE">
@@ -291,6 +291,12 @@
     </option>
     <option name="BLOCK_TERMINAL_WHITE">
       <value>
+        <option name="FOREGROUND" value="88847f" />
+        <option name="BACKGROUND" value="88847f" />
+      </value>
+    </option>
+    <option name="BLOCK_TERMINAL_WHITE_BRIGHT">
+      <value>
         <option name="FOREGROUND" value="d7c3ba" />
         <option name="BACKGROUND" value="d7c3ba" />
       </value>
@@ -371,7 +377,7 @@
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="88847f" />
+        <option name="FOREGROUND" value="2e2a27" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -381,7 +387,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d7c3ba" />
+        <option name="FOREGROUND" value="88847f" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -437,7 +443,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="d7c3ba" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">

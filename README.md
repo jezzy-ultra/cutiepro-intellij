@@ -1,7 +1,7 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <img alt="logo" src="src/main/resources/META-INF/pluginIcon.svg" align="left" width="75">
 
-# cutiepro theme, for jetbrains ides
+# cutiepro theme, for JetBrains IDEs
 ![build](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/workflows/build/badge.svg)
 [![version](https://img.shields.io/jetbrains/plugin/v/24654-cutiepro.svg)](https://plugins.jetbrains.com/plugin/24654-cutiepro)
 [![downloads](https://img.shields.io/jetbrains/plugin/d/24654-cutiepro.svg)](https://plugins.jetbrains.com/plugin/24654-cutiepro)

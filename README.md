@@ -8,6 +8,7 @@
 <!-- Plugin description -->
 dark. pastel. pink. legible. cute. *fearlessly feminine*
 
+
 see [jezzy-ultra/cutiepro](https://github.com/jezzy-ultra/cutiepro) to use cutiepro as your favorite terminal's color scheme
 <!-- Plugin description end -->
 

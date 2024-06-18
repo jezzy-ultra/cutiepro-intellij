@@ -14,8 +14,8 @@ see [jezzy-ultra/cutiepro](https://github.com/jezzy-ultra/cutiepro) to use cutie
 
 ![screenshot](src/main/resources/screenshot.png)
 
-## Installation
+## installation
 Go to the plugins tab in your IDE and search for <kbd>cutiepro</kbd> in the marketplace (recommended), or download the [latest release](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/releases/latest) and install it manually with the <kbd>Install plugin from disk...</kbd> option.
 
-## To-Do
+## to-do
 - Adjust the UI colors (mainly the whites and grays)

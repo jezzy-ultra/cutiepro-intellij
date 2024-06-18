@@ -4,8 +4,8 @@
 
 ## [Unreleased]
 
-- Tweak console colors
-- Update a few of the logo colors to be accurate
+- Tweak console (and a few miscellaneous) colors
+- Update a few of the logo colors to be accurate and add it to the readme
 - Add an example screenshot
 
 ## [1.0.2] - 2024-06-17

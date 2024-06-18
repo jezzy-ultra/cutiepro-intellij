@@ -1,9 +1,9 @@
 <img alt="logo" src="src/main/resources/META-INF/pluginIcon.svg" align="left" width="75">
 
 # cutiepro theme, for JetBrains IDEs
-![Build](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/workflows/build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+![build](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/workflows/build/badge.svg)
+[![version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
 <!-- Plugin description -->
 dark. pastel. pink. legible. cute. *fearlessly feminine*

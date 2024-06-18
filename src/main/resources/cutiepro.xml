@@ -1644,7 +1644,7 @@
     </option>
     <option name="PY.ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="9ed7a8" />
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
@@ -1664,7 +1664,7 @@
     <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
     <option name="PY.TYPE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="f3b061" />
+        <option name="FOREGROUND" value="42d9c5" />
       </value>
     </option>
     <option name="QUTE_IDENTIFIER">

@@ -4,8 +4,6 @@
 
 ## [Unreleased]
 
-## [1.1.0] - 2024-06-18
-
 - Fix and tweak some editor colors
 - Update a few of the logo colors to be accurate and add the logo to the readme
 - Add an example screenshot
@@ -14,6 +12,5 @@
 
 - Initial release! :)
 
-[Unreleased]: https://github.com/jezzy-ultra/CutiePro-intellij-plugin/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/jezzy-ultra/CutiePro-intellij-plugin/compare/v1.0.2...v1.1.0
+[Unreleased]: https://github.com/jezzy-ultra/CutiePro-intellij-plugin/compare/v1.0.2...HEAD
 [1.0.2]: https://github.com/jezzy-ultra/CutiePro-intellij-plugin/commits/v1.0.2

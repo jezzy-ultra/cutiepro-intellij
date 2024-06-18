@@ -2,8 +2,8 @@
 
 # cutiepro theme, for JetBrains IDEs
 ![build](https://github.com/jezzy-ultra/cutiepro-intellij-plugin/workflows/build/badge.svg)
-[![version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+[![version](https://img.shields.io/jetbrains/plugin/v/24654-cutiepro.svg)](https://plugins.jetbrains.com/plugin/24654-cutiepro)
+[![downloads](https://img.shields.io/jetbrains/plugin/d/24654-cutiepro.svg)](https://plugins.jetbrains.com/plugin/24654-cutiepro)
 
 <!-- Plugin description -->
 dark. pastel. pink. legible. cute. *fearlessly feminine*.  

@@ -1,3 +1,4 @@
+<!--suppress HtmlDeprecatedAttribute -->
 <img alt="logo" src="src/main/resources/META-INF/pluginIcon.svg" align="left" width="75">
 
 # cutiepro theme, for JetBrains IDEs

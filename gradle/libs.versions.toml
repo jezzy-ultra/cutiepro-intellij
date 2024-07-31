@@ -4,10 +4,10 @@ annotations = "24.1.0"
 
 # plugins
 kotlin = "2.0.0"
-changelog = "2.2.1"
-intellijPlatform = "2.0.0-beta8"
-qodana = "2024.1.8"
-kover = "0.8.2"
+changelog = "2.2.0"
+intellijPlatform = "2.0.0"
+qodana = "2024.1.5"
+kover = "0.8.3"
 
 [libraries]
 annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
